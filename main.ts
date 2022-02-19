@@ -55,6 +55,7 @@ input.onButtonPressed(Button.AB, function () {
 })
 input.onButtonPressed(Button.B, function () {
     Floors_Counter += -1
+    basic.showNumber(Floors_Counter)
     basic.showLeds(`
         . . # . .
         . . # . .
